@@ -14,6 +14,7 @@ class Student
   end
 
   def add_student_attributes(attributes_hash)
+    binding.pry
     attributes_hash.each { |array_hash| Student.new(attributes_hash) }
 
   end
